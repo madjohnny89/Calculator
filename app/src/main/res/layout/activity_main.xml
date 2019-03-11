@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#303659"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ResultText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ResultText"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="#C48C59"
+        android:gravity="end|center_vertical"
+        android:text="@string/result"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topText" />
+
+    <ImageView
+        android:id="@+id/buttonEqual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/equal_button"
+        app:layout_constraintTop_toBottomOf="@+id/ResultText"
+        android:onClick="OnClick"
+        app:srcCompat="@drawable/equal" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ResultText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_7"
+                app:srcCompat="@drawable/button7" />
+
+            <ImageView
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_8"
+                app:srcCompat="@drawable/button8" />
+
+            <ImageView
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_9"
+                app:srcCompat="@drawable/button9" />
+
+            <ImageView
+                android:id="@+id/divide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_divide"
+                app:srcCompat="@drawable/divide" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_4"
+                app:srcCompat="@drawable/button4" />
+
+            <ImageView
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_5"
+                app:srcCompat="@drawable/button5" />
+
+            <ImageView
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_6"
+                app:srcCompat="@drawable/button6" />
+
+            <ImageView
+                android:id="@+id/buttonMultiplication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_multiply"
+                app:srcCompat="@drawable/x" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_1"
+                app:srcCompat="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_2"
+                app:srcCompat="@drawable/button2" />
+
+            <ImageView
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_3"
+                app:srcCompat="@drawable/button3" />
+
+            <ImageView
+                android:id="@+id/buttonPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_plus"
+                app:srcCompat="@drawable/plus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/buttonCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_cancel"
+                app:srcCompat="@drawable/cancel" />
+
+            <ImageView
+                android:id="@+id/buttonZero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_0"
+                app:srcCompat="@drawable/zero" />
+
+            <ImageView
+                android:id="@+id/buttonMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_minus"
+                app:srcCompat="@drawable/minus" />
+
+            <ImageView
+                android:id="@+id/buttonFloat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnClick"
+                android:contentDescription="@string/button_float"
+                app:srcCompat="@drawable/float1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
