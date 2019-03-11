@@ -24,7 +24,7 @@
     <TextView
         android:id="@+id/ResultText"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="140dp"
         android:background="#C48C59"
         android:gravity="end|center_vertical"
         android:text="@string/result"
@@ -64,38 +64,38 @@
 
             <ImageView
                 android:id="@+id/button7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_7"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/button7" />
 
             <ImageView
                 android:id="@+id/button8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_8"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/button8" />
 
             <ImageView
                 android:id="@+id/button9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_9"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/button9" />
 
             <ImageView
                 android:id="@+id/divide"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_divide"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/divide" />
         </LinearLayout>
 
@@ -106,38 +106,38 @@
 
             <ImageView
                 android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_4"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/button4" />
 
             <ImageView
                 android:id="@+id/button5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_5"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/button5" />
 
             <ImageView
                 android:id="@+id/button6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_6"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/button6" />
 
             <ImageView
                 android:id="@+id/buttonMultiplication"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_multiply"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/x" />
         </LinearLayout>
 
@@ -148,38 +148,38 @@
 
             <ImageView
                 android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_1"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/button" />
 
             <ImageView
                 android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_2"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/button2" />
 
             <ImageView
                 android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_3"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/button3" />
 
             <ImageView
                 android:id="@+id/buttonPlus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_plus"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/plus" />
         </LinearLayout>
 
@@ -190,38 +190,38 @@
 
             <ImageView
                 android:id="@+id/buttonCancel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_cancel"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/cancel" />
 
             <ImageView
                 android:id="@+id/buttonZero"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_0"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/zero" />
 
             <ImageView
                 android:id="@+id/buttonMinus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_minus"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/minus" />
 
             <ImageView
                 android:id="@+id/buttonFloat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="OnClick"
                 android:contentDescription="@string/button_float"
+                android:onClick="OnClick"
                 app:srcCompat="@drawable/float1" />
         </LinearLayout>
 
